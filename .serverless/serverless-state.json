@@ -413,7 +413,7 @@
           "Assets": {
             "Type": "AWS::S3::Bucket",
             "Properties": {
-              "BucketName": "kai-laravel-test"
+              "BucketName": "xkeiji-laravel-test"
             }
           },
           "AssetsBucketPolicy": {
@@ -751,7 +751,7 @@
       "environments": {
         "DB_PORT": 3306,
         "DB_DATABASE": "hoge_app",
-        "AWS_BUCKET": "kai-laravel-test"
+        "AWS_BUCKET": "xkeiji-laravel-test"
       },
       "secret": {
         "USER_NAME": "root",
@@ -831,7 +831,7 @@
         "Assets": {
           "Type": "AWS::S3::Bucket",
           "Properties": {
-            "BucketName": "kai-laravel-test"
+            "BucketName": "xkeiji-laravel-test"
           }
         },
         "AssetsBucketPolicy": {

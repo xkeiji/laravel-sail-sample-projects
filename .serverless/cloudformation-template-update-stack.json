@@ -403,7 +403,7 @@
     "Assets": {
       "Type": "AWS::S3::Bucket",
       "Properties": {
-        "BucketName": "kai-laravel-test"
+        "BucketName": "xkeiji-laravel-test"
       }
     },
     "AssetsBucketPolicy": {
