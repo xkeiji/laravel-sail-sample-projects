@@ -36,7 +36,7 @@ functions:
     handler: public/index.php
     timeout: 28 # in seconds (API Gateway has a timeout of 29 seconds)
     layers:
-      - ${bref:layer.php-74-fpm}
+      - ${bref:layer.php-81-fpm}
     events:
       - httpApi: "*"
       # This function lets us run artisan commands in Lambda
@@ -56,7 +56,7 @@ functions:
     handler: artisan
     timeout: 120 # in seconds
     layers:
-      - ${bref:layer.php-74} # PHP
+      - ${bref:layer.php-81} # PHP
       - ${bref:layer.console} # The "console" layer
     vpc:
       securityGroupIds:
