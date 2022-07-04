@@ -6,6 +6,10 @@ on:
     - main
     - feature/deploy-aws-lambda
 
+permissions:
+  id-token: write # required!
+  contents: read
+  
 jobs:
   deploy:
 
